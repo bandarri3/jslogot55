@@ -24,6 +24,9 @@ function LogoInterpreter(turtle, stream, savehook)
 
   var UNARY_MINUS = '<UNARYMINUS>'; // Must not parse as a word
 
+    var UNARY_MINUS = '<UNARYMINUS>'; // Must not parse as a word
+
+  
   var ERRORS = {
     BAD_INPUT: 4,
     NO_OUTPUT: 5,
